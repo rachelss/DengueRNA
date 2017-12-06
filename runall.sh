@@ -1,13 +1,13 @@
 #!/bin/bash
 #PBS -l walltime=72:00:00
 #PBS -q default
-#PBS -l nodes=1:ppn=1
+#PBS -l nodes=1:ppn=20
 #PBS -N getBAMcounts
-#PBS -o /data3/prabhani/allFiles/log
-#PBS -e /data3/prabhani/allFiles/log
+#PBS -o /data3/schwartzlab/rachel/dengue/log
+#PBS -e /data3/schwartzlab/rachel/dengue/log
 #PBS -t 1-40
 
-bash runstar.sh /data3/prabhani/allFiles/
+bash ~/DengueRNA/runstar.sh ~/ /data3/schwartzlab/rachel/dengue
 
 
 
