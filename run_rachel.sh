@@ -7,7 +7,7 @@
 #PBS -e /data3/schwartzlab/rachel/dengue/log
 #PBS -t 1-40
 
-bash ~/DengueRNA/runstar.sh ~/ /data3/schwartzlab/rachel/dengue
+bash ~/DengueRNA/runstar.sh /data3/lvip/allFiles /data3/schwartzlab/rachel/dengue
 
 
 
